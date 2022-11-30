@@ -1,7 +1,6 @@
 import { LoginPage, SignupPage } from "../src/pages/index";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 function App() {
-
   return (
     <>
       <Router>
@@ -11,8 +10,7 @@ function App() {
         </Routes>
       </Router>
     </>
-  )
+  );
 }
 
-
-export default App
+export default App;
