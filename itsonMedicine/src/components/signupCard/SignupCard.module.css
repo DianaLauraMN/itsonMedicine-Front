@@ -15,16 +15,16 @@
   flex-direction: column;
   gap: 2rem;
 }
-.inputsLogin {
+.inputsSignup {
   display: flex;
   flex-direction: column;
   gap: 2rem;
 }
-.inputsLogin label {
+.inputsSignup label {
   text-align: start;
 }
 
-.inputsLogin input {
+.inputsSignup input {
   border: none;
   outline: none;
   background-color: var(--grey);
@@ -36,13 +36,13 @@
   position: relative;
   top: 5.5rem;
 }
-.btnsLogin {
+.btnsSignup {
   display: flex;
   flex-direction: column;
   gap: 2rem;
   margin-top: 2rem;
 }
-.btnsLogin button {
+.btnsSignup button {
   border: none;
   color: var(--white);
   background-color: var(--blueBg);
@@ -54,11 +54,11 @@
   cursor: pointer;
 }
 
-.btnsLogin button:active {
+.btnsSignup button:active {
   background-color: var(--activeBlueBg);
 }
 
-.btnsLogin a {
+.btnsSignup a {
   text-decoration: none;
   color: var(--blueBg);
 }

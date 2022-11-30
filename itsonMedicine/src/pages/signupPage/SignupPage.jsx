@@ -1,16 +1,18 @@
 import { SignupCard } from "../../components/index";
+import style from "./SignupPage.module.css";
 const SignupPage = () => {
-    return (
-        <>
-            <div className="main">
-                <h1>CREAR CUENTA</h1>
+  return (
+    <>
+      <div className={style.main}>
+        <div className={style.container}>
+          <h1>CREAR CUENTA</h1>
+          <div>
+            <SignupCard />
+          </div>
+        </div>
+      </div>
+    </>
+  );
+};
 
-                <div>
-                    <SignupCard />
-                </div>
-            </div>
-        </>
-    )
-}
-
-export default SignupPage
+export default SignupPage;
