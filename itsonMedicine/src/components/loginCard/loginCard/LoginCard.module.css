@@ -1,0 +1,19 @@
+.form {
+    background-color: #FFFFFF;
+    padding: 10rem;
+}
+.inputsLogin {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.inputsLogin label {
+    text-align: start;
+}
+
+.inputsLogin input {
+    border: none;
+    outline: none;
+    background-color: var(--grey);
+}
