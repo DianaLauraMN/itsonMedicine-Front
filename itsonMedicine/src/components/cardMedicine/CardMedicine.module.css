@@ -1,0 +1,11 @@
+.card {
+  width: 15vw;
+  box-shadow: 0rem 1rem 2rem 1rem rgba(0, 0, 0, 0.113);
+}
+
+.btn {
+  background-color: var(--blueBg);
+  border: none;
+  font: var(--font);
+  color: var(--white);
+}

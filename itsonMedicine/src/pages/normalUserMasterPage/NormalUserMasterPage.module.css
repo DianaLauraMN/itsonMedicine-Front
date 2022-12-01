@@ -1,0 +1,11 @@
+html {
+  background-color: var(--white);
+}
+.top {
+  width: 100vw;
+  height: 35rem;
+  padding: 4rem;
+  background-image: url("/img/headerBg.svg");
+  background-size: cover;
+  background-position: center;
+}

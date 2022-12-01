@@ -1,0 +1,10 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  color: var(--white);
+  padding: 4rem;
+  background-color: var(--blueBg);
+}
+.footer h1 {
+  font-size: 2.5rem;
+}
