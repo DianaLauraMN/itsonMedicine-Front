@@ -1,0 +1,17 @@
+.title {
+  position: relative;
+  bottom: 3rem;
+  border: none;
+}
+
+.title h1 {
+  height: 3rem;
+  width: 60rem;
+  padding: 2rem 1.5rem 4rem 1.5rem;
+  text-align: center;
+  border: none;
+  background-color: var(--white);
+  box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.168);
+  border-radius: 0.5em;
+  font-size: 2rem;
+}

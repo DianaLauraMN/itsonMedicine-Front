@@ -7,10 +7,19 @@ const DonationsPage = () => {
         <div className={style.search}>
           <Search />
         </div>
-        <div>
+        <div className={style.cardsContainer}>
+          <CardMedicine />
+          <CardMedicine />
+          <CardMedicine />
+          <CardMedicine />
+          <CardMedicine />
+          <CardMedicine />
+          <CardMedicine />
+          <CardMedicine />
+          <CardMedicine />
           <CardMedicine />
         </div>
-        <div>
+        <div className={style.paginator}>
           <Paginator />
         </div>
       </div>

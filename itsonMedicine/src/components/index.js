@@ -3,14 +3,13 @@ import SignupCard from "./signupCard/SignupCard";
 import Menu from "./menu/Menu";
 import Header from "./header/Header";
 import Footer from "./footer/Footer";
-import DonateFormSection from "./donateFormSection/DonateFormSection";
 import ModalDenied from "./modalDenied/ModalDenied";
 import ModalMedicine from "./modalMedicine/ModalMedicine";
 import ModalMessage from "./modalMessage/ModalMessage";
 import Search from "./search/Search";
 import CardMedicine from "./cardMedicine/CardMedicine";
 import Paginator from "./paginator/Paginator";
-import TitlePage from "./titlePage/TitlePage";
+import PageTitle from "./pageTitle/PageTitle";
 import FormDonation from "./formDonation/FormDonation";
 
 export {
@@ -22,10 +21,9 @@ export {
   ModalDenied,
   ModalMedicine,
   ModalMessage,
-  DonateFormSection,
+  FormDonation,
   Search,
   CardMedicine,
   Paginator,
-  TitlePage,
-  FormDonation,
+  PageTitle,
 };

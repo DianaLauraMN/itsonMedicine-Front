@@ -1,7 +1,24 @@
-import React from "react";
-
+import { CardMedicine, PageTitle } from "../../components";
+import style from "./MyDonationsPage.module.css";
 const MyDonationsPage = () => {
-  return <div>MyDonationsPage</div>;
+  return (
+    <>
+      <div className={style.donationsContainer}>
+        <div className={style.pageTitle}>
+          <PageTitle />
+        </div>
+        <div className={style.cardsContainer}>
+          <CardMedicine />
+          <CardMedicine />
+          <CardMedicine />
+          <CardMedicine />
+          <CardMedicine />
+          <CardMedicine />
+          <CardMedicine />
+        </div>
+      </div>
+    </>
+  );
 };
 
 export default MyDonationsPage;
