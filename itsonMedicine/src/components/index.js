@@ -7,6 +7,12 @@ import DonateFormSection from "./donateFormSection/DonateFormSection";
 import ModalDenied from "./modalDenied/ModalDenied";
 import ModalMedicine from "./modalMedicine/ModalMedicine";
 import ModalMessage from "./modalMessage/ModalMessage";
+import Search from "./search/Search";
+import CardMedicine from "./cardMedicine/CardMedicine";
+import Paginator from "./paginator/Paginator";
+import TitlePage from "./titlePage/TitlePage";
+import FormDonation from "./formDonation/FormDonation";
+
 export {
   LoginCard,
   SignupCard,
@@ -17,4 +23,9 @@ export {
   ModalMedicine,
   ModalMessage,
   DonateFormSection,
+  Search,
+  CardMedicine,
+  Paginator,
+  TitlePage,
+  FormDonation,
 };

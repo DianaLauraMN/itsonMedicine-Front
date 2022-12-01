@@ -1,12 +1,12 @@
 import { Outlet } from "react-router-dom";
-import { Footer, Header, Menu } from "../../components";
+import { Footer, Header } from "../../components";
+import style from "./NormalUserMasterPage.module.css";
 
 const NormalUserMasterPage = () => {
   return (
     <>
-      <div className="top">
+      <div className={style.top}>
         <Header />
-        <Menu />
       </div>
       <div>
         <Outlet />

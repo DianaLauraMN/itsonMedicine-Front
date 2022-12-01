@@ -1,0 +1,18 @@
+.topHeader {
+  display: flex;
+  justify-content: space-between;
+}
+.bottomHeader {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem;
+}
+.bottomHeader p {
+  color: var(--white);
+  font: var(--font);
+  font-size: 3.5rem;
+  font-weight: 500;
+  margin: 0;
+}

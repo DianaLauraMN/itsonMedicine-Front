@@ -1,9 +1,19 @@
-import React from "react";
-
+import style from "./DonationsPage.module.css";
+import { Search, CardMedicine, Paginator } from "../../components";
 const DonationsPage = () => {
   return (
     <>
-      <h1>Donations Page</h1>
+      <div className={style.donationsContainer}>
+        <div className={style.search}>
+          <Search />
+        </div>
+        <div>
+          <CardMedicine />
+        </div>
+        <div>
+          <Paginator />
+        </div>
+      </div>
     </>
   );
 };
