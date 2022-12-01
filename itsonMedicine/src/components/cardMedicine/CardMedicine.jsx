@@ -6,8 +6,8 @@ const CardMedicine = () => {
     <>
       <div className={style.card}>
         <img className={style.cardImg} src={IMG_MED} alt="Card" />
-        <h1 className={style.title}>Titulo</h1>
-        <h3 className={style.unities}>Unidades</h3>
+        <h2 className={style.title}>Titulo</h2>
+        <p className={style.unities}>Unidades</p>
         <button className={style.btn}>Ver más</button>
       </div>
     </>

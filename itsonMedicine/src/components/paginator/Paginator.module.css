@@ -1,0 +1,19 @@
+.paginator {
+  display: inline-block;
+  margin-top: 5rem;
+}
+
+.paginator a {
+  color: var(--mainText);
+  float: left;
+  padding: 0.8rem 1.6rem;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.2;
+}
+
+.paginator a:hover {
+  background-color: var(--blueBg);
+  color: var(--white);
+}

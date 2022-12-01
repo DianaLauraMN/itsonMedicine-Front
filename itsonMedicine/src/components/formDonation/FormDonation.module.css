@@ -1,0 +1,100 @@
+.formDonation {
+  background-color: var(--white);
+  width: 70rem;
+  height: 80rem;
+  border-radius: 1rem;
+  color: var(--mainText);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: rgba(0, 0, 0, 0.126) solid 1px;
+  box-shadow: 0.5rem 1rem 1rem rgba(0, 0, 0, 0.113);
+  padding: 2rem;
+  margin-top: 10rem;
+}
+
+.centerIMG {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.plus {
+  position: relative;
+  left: 43rem;
+  bottom: 3rem;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 100%;
+  border: none;
+  background-color: var(--blueBg);
+  font-size: 3rem;
+  color: var(--white);
+  transition: 0.2s;
+}
+
+.plus:hover {
+  background-color: var(--activeBlueBg);
+}
+
+.inputsForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.inputsForm input {
+  border: none;
+  background-color: var(--grey);
+  border-radius: 0.5rem;
+  height: 4rem;
+  margin-top: 1rem;
+  font: var(--font);
+  outline: none;
+}
+
+.inputsForm label {
+  margin-top: 1rem;
+}
+.centerButton {
+  display: flex;
+  justify-content: center;
+}
+.centerButton button {
+  margin-top: 3rem;
+}
+
+.enviar {
+  background-color: var(--blueBg);
+  width: 25rem;
+  height: 4rem;
+  border: none;
+  border-radius: 0.5rem;
+  color: var(--white);
+  font-size: 1.5rem;
+  font-family: var(--poppins);
+  text-align: center;
+}
+
+.labels {
+  display: flex;
+  flex-direction: row;
+}
+
+.labels label {
+  width: 50%;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: row;
+}
+
+.inputs input {
+  width: 50%;
+}
+
+.inputs input:first-child {
+  width: 45%;
+  margin-right: 2rem;
+}

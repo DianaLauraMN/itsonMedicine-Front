@@ -1,0 +1,15 @@
+.donationsContainer {
+  width: 100vw;
+}
+
+.pageTitle {
+  display: flex;
+  justify-content: center;
+}
+.cardsContainer {
+  padding-left: 10rem;
+  padding-right: 10rem;
+  display: grid;
+  justify-items: center;
+  grid-template-columns: repeat(5, 1fr);
+}
