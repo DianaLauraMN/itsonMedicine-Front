@@ -1,4 +1,4 @@
-import { CardMedicine, PageTitle } from "../../components";
+import { CardMedicine, PageTitle, ModalDenied } from "../../components";
 import style from "./MyDonationsPage.module.css";
 const MyDonationsPage = () => {
   return (

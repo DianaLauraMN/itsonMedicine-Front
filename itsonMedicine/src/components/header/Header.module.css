@@ -11,7 +11,7 @@
 }
 .bottomHeader p {
   color: var(--white);
-  font: var(--font);
+  font-family: var(--font);
   font-size: 3.5rem;
   font-weight: 500;
   margin: 0;

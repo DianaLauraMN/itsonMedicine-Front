@@ -1,7 +1,8 @@
 .title {
-  position: relative;
   bottom: 3rem;
   border: none;
+  margin-top: -3rem;
+  margin-bottom: 2rem;
 }
 
 .title h1 {
