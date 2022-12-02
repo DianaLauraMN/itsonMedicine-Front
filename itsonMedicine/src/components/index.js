@@ -15,6 +15,7 @@ import SideBarMenu from "./sideBarMenu/SideBarMenu";
 import ModalAdminMedicine from "./modalAdminMedicine/ModalAdminMedicine";
 import ModalAdminRequest from "./modalAdminRequest/ModalAdminRequest";
 import CardAdminMedicine from "./cardAdminMedicine/CardAdminMedicine";
+import CardRequest from "./cardRequest/CardRequest";
 export {
   LoginCard,
   SignupCard,
@@ -33,4 +34,5 @@ export {
   ModalAdminMedicine,
   ModalAdminRequest,
   CardAdminMedicine,
+  CardRequest,
 };
