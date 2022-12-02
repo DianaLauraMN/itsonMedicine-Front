@@ -14,6 +14,7 @@ import FormDonation from "./formDonation/FormDonation";
 import SideBarMenu from "./sideBarMenu/SideBarMenu";
 import ModalAdminMedicine from "./modalAdminMedicine/ModalAdminMedicine";
 import ModalAdminRequest from "./modalAdminRequest/ModalAdminRequest";
+import CardAdminMedicine from "./cardAdminMedicine/CardAdminMedicine";
 export {
   LoginCard,
   SignupCard,
@@ -31,4 +32,5 @@ export {
   SideBarMenu,
   ModalAdminMedicine,
   ModalAdminRequest,
+  CardAdminMedicine,
 };
