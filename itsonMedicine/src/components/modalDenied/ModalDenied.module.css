@@ -1,0 +1,48 @@
+.containerModal {
+  background-color: var(--white);
+  border-radius: 2rem;
+  padding: 2rem 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 70rem;
+  height: 80rem;
+}
+
+.containerModal p {
+  font-size: 2rem;
+}
+
+.listoBtn {
+  border: none;
+  color: var(--white);
+  background-color: var(--mainText);
+  font-family: var(--font);
+  border-radius: 0.3rem;
+  width: 25rem;
+  padding: 1rem;
+  transition: 0.2s ease;
+  cursor: pointer;
+  margin-top: 3rem;
+  font-size: 2rem;
+}
+
+.listoBtn:hover {
+  background-color: var(--activeGrey);
+}
+
+.inputs {
+  margin-top: 2rem;
+}
+
+.inputs label {
+  font-weight: 500;
+  font-size: 2rem;
+  color: var(--blueBg);
+}
+.img {
+  position: relative;
+  bottom: 2rem;
+  width: 40rem;
+}

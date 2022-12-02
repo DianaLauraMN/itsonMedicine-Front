@@ -1,0 +1,54 @@
+.cardContainer {
+  background-color: var(--white);
+  border-radius: 2rem;
+  padding: 2rem 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 60rem;
+  height: 70rem;
+}
+
+.cardContainer div {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 0.5rem;
+  margin: 1rem 0rem;
+  padding: 2rem;
+  width: 100%;
+  background-color: var(--lightGrey);
+}
+
+label {
+  font-size: 2rem;
+}
+
+.labelBlue {
+  color: var(--blueBg);
+  font-weight: 500;
+}
+
+.img {
+  position: relative;
+  bottom: 3rem;
+  width: 25rem;
+}
+
+.listoBtn {
+  border: none;
+  color: var(--white);
+  background-color: var(--mainText);
+  font-family: var(--font);
+  border-radius: 0.3rem;
+  width: 25rem;
+  padding: 1rem;
+  transition: 0.2s ease;
+  cursor: pointer;
+  margin-top: 3rem;
+  font-size: 2rem;
+}
+
+.listoBtn:hover {
+  background-color: var(--activeGrey);
+}

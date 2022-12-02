@@ -11,7 +11,9 @@ import CardMedicine from "./cardMedicine/CardMedicine";
 import Paginator from "./paginator/Paginator";
 import PageTitle from "./pageTitle/PageTitle";
 import FormDonation from "./formDonation/FormDonation";
-
+import SideBarMenu from "./sideBarMenu/SideBarMenu";
+import ModalAdminMedicine from "./modalAdminMedicine/ModalAdminMedicine";
+import ModalAdminRequest from "./modalAdminRequest/ModalAdminRequest";
 export {
   LoginCard,
   SignupCard,
@@ -26,4 +28,7 @@ export {
   CardMedicine,
   Paginator,
   PageTitle,
+  SideBarMenu,
+  ModalAdminMedicine,
+  ModalAdminRequest,
 };

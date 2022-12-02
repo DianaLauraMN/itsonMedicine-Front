@@ -1,7 +1,8 @@
 .search {
-  position: relative;
   bottom: 3rem;
   border: none;
+  margin-top: -3rem;
+  margin-bottom: 2rem;
 }
 
 .search input {

@@ -1,5 +1,7 @@
-html {
-  background-color: var(--white);
+.masterPage {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
 }
 .top {
   width: 100vw;
@@ -8,4 +10,23 @@ html {
   background-image: url("/img/headerBg.svg");
   background-size: cover;
   background-position: center;
+}
+
+.modals {
+  position: absolute;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.274);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+}
+
+.modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
 }

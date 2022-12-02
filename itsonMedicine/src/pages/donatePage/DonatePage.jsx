@@ -1,4 +1,4 @@
-import { FormDonation, PageTitle } from "../../components";
+import { FormDonation, ModalMessage, PageTitle } from "../../components";
 import style from "./DonatePage.module.css";
 const DonatePage = () => {
   return (

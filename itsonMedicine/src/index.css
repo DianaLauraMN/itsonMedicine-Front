@@ -7,6 +7,8 @@
   --white: #ffffff;
   --grey: #f3f3f3;
   --mainText: #666666;
+  --activeGrey: #808080;
+  --lightGrey: #6666662c;
 }
 
 html {

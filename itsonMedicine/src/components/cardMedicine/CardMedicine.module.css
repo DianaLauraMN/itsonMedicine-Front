@@ -21,7 +21,7 @@
 .btn {
   background-color: var(--blueBg);
   border: none;
-  font: var(--font);
+  font-family: var(--font);
   color: var(--white);
   border-radius: 0.5rem;
   height: 5rem;

@@ -10,7 +10,6 @@
   border: rgba(0, 0, 0, 0.126) solid 1px;
   box-shadow: 0.5rem 1rem 1rem rgba(0, 0, 0, 0.113);
   padding: 2rem;
-  margin-top: 10rem;
 }
 
 .centerIMG {
@@ -49,7 +48,7 @@
   border-radius: 0.5rem;
   height: 4rem;
   margin-top: 1rem;
-  font: var(--font);
+  font-family: var(--font);
   outline: none;
 }
 

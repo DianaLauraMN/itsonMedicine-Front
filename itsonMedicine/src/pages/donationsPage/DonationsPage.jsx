@@ -1,5 +1,10 @@
 import style from "./DonationsPage.module.css";
-import { Search, CardMedicine, Paginator } from "../../components";
+import {
+  Search,
+  CardMedicine,
+  Paginator,
+  ModalMedicine,
+} from "../../components";
 const DonationsPage = () => {
   return (
     <>

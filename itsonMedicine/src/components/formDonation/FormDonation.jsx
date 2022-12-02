@@ -1,6 +1,14 @@
 import style from "./FormDonation.module.css";
 import IMG_PICTURE from "/img/picture.svg";
+import useModal from "../../hooks/useModal";
 const FormDonation = () => {
+  const { handleOnChangeModal, handleOnChangeModalSelected } = useModal();
+
+  const handleOnClick = (state, option) => {
+    handleOnChangeModal(state);
+    handleOnChangeModalSelected(option);
+  };
+
   return (
     <>
       <div className={style.formDonation}>
@@ -26,7 +34,13 @@ const FormDonation = () => {
             <input type="text" detalles="detalles" name="detallesInput" />
           </div>
           <div className={style.centerButton}>
-            <button type="submit" className={style.enviar}>
+            <button
+              className={style.enviar}
+              onClick={(e) => {
+                e.preventDefault();
+                handleOnClick(true, "message");
+              }}
+            >
               Enviar donación
             </button>
           </div>
