@@ -44,6 +44,8 @@
   color: #ffffffa2;
   text-decoration: none;
   transition: 0.2s ease;
+  font-size: 2rem;
+  font-weight: 500;
 }
 
 .menuBottom a:hover {

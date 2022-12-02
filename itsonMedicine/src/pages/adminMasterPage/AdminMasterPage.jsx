@@ -1,12 +1,6 @@
 import { Outlet } from "react-router-dom";
 import style from "./AdminMasterPage.module.css";
-import {
-  ModalAdminMedicine,
-  ModalAdminRequest,
-  SideBarMenu,
-  Search,
-} from "../../components";
-import { MedicinesPage } from "../../pages";
+import { SideBarMenu, Search } from "../../components";
 
 const AdminMasterPage = () => {
   return (
@@ -14,12 +8,14 @@ const AdminMasterPage = () => {
       <div className={style.container}>
         <div className={style.sidebar}>
           <SideBarMenu />
-        </div>
-        <div className={style.medicines}>
-          <MedicinesPage />
-        </div>
-        <div>
-          <Outlet />
+          <div className={style.ochenta}>
+            <div className={style.search}>
+              <Search />
+            </div>
+            <div className={style.page}>
+              <Outlet />
+            </div>
+          </div>
         </div>
       </div>
     </>

@@ -1,4 +1,9 @@
 .sidebar {
   display: grid;
   grid-template-columns: 20% 80%;
+  justify-content: center;
+}
+.page {
+  display: grid;
+  justify-content: center;
 }
