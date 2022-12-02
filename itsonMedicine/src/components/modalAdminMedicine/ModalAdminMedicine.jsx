@@ -33,7 +33,13 @@ const ModalAdminMedicine = () => {
           className={style.listoBtn}
           onClick={() => handleOnChangeModal(false)}
         >
-          Cerrar
+          Aceptar
+        </button>
+        <button
+          className={style.listoBtn}
+          onClick={() => handleOnChangeModal(false)}
+        >
+          Rechazar
         </button>
       </div>
     </>
