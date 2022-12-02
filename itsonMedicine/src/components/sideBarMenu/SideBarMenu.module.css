@@ -21,7 +21,7 @@
 }
 
 .menuTop {
-  margin: 3rem 0rem;
+  margin: 3rem 0rem 0rem 0rem;
 }
 
 .menuTop img {
@@ -50,4 +50,11 @@
 
 .menuBottom a:hover {
   color: var(--white);
+}
+
+.whiteLine {
+  align-self: center;
+  background-color: var(--white);
+  width: 80%;
+  height: 0.3rem;
 }

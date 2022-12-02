@@ -18,7 +18,7 @@ const CardAdminMedicine = () => {
         <p className={style.unities}>Identificador</p>
         <button
           className={style.btn}
-          onClick={() => handleOnClick(true, "medicine")}
+          onClick={() => handleOnClick(true, "medicineAdmin")}
         >
           Ver Medicina
         </button>
